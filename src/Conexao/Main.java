@@ -20,7 +20,7 @@ public class Main {
 		
 		while(true){
 			System.out.println("Digite a opção desejadas: ");
-			System.out.println("1 - Inseri filme");
+			System.out.println("1 - Inserir filme");
 			System.out.println("2 - Deletar filme");
 			System.out.println("3 - Atualizar filme");
 			System.out.println("4 - Exibir todos os filmes");

@@ -40,11 +40,11 @@ public class Inserir {
     	        
     	        if (linhasAfetadas > 0) {
     	        	System.out.println("*****************************************************");
-    	            System.out.println("Filme cadastrado com sucesso.");
+    	            System.out.println("Filme cadastrado com sucesso!");
     	            System.out.println("*****************************************************");
     	        } else {
     	        	System.out.println("*****************************************************");
-    	            System.out.println("Falha ao adicionar filme.");
+    	            System.out.println("Falha ao adicionar filme!");
     	            System.out.println("*****************************************************");
     	        }
     	        	    	        
