@@ -9,7 +9,7 @@ public class Conexao {
 	//Dados de acesso ao banco
     private static final String URL = "jdbc:mysql://localhost:3306/catalogo";
     private static final String username = "root";
-    private static final String password = "senai";
+    private static final String password = "root";
     
     public Connection obterConexao() {
         try {

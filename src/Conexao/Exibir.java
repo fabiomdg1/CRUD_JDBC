@@ -20,6 +20,9 @@ public class Exibir {
             
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             ResultSet resultSet = preparedStatement.executeQuery();
+            System.out.println("*****************************************************");
+            System.out.println("******************Lista de Filmes********************");
+            System.out.println("*****************************************************");
             
             while (resultSet.next()) {
 
@@ -28,11 +31,9 @@ public class Exibir {
                 String genero = resultSet.getString("genero");
                 String diretor = resultSet.getString("diretor");
                 String duracao = resultSet.getString("duracao");
-                
+                System.out.println("ID: " + idfilme + "\nTítulo: " + nome + "\nGênero: " + genero + "\nDiretor: " + diretor + "\nDuração: " + duracao);
+                System.out.println("*****************************************************");
 
-                // Agora você pode fazer o que quiser com os dados, como exibi-los
-                System.out.println("ID: " + idfilme + "| Título: " + nome + " | Gênero: " + genero + " | Diretor: " + diretor + " | Duração: " + duracao);
-                // Adicione mais colunas conforme necessário
             }
 
         } catch (SQLException e) {
