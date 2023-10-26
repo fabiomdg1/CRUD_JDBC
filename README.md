@@ -17,6 +17,7 @@ Antes de executar o aplicativo, certifique-se de que você tenha:
 
 * Um banco de dados MySQL configurado com uma tabela chamada `filmes`.
 * As configurações de conexão ao banco de dados estejam corretamente definidas nas classes de conexão.
+* Ter configurado o driver MySql no projeto. A instruções constam no final deste documento.
 
 ## Uso
 
@@ -42,3 +43,13 @@ Selecionando a opção "Exibir todos os filmes", você verá a lista de todos os
 
 Para exibir informações de um filme com base no ID, informe o ID do filme desejado. Recomenda-se usar a opção "Exibir todos os filmes" antes para encontrar o ID desejado.
 
+
+## Configuração do Driver JDBC do MySQL
+
+Antes de executar o aplicativo, é necessário fazer o download do driver JDBC do MySQL e configurá-lo adequadamente. Siga estas etapas:
+
+1. Acesse o site oficial do MySQL e faça o download do driver JDBC do MySQL (normalmente, um arquivo JAR). Você pode encontrar o driver em [mysql.com](https://dev.mysql.com/downloads/connector/j/).
+
+2. Após o download, copie o arquivo JAR do driver (por exemplo, `mysql-connector-java-8.x.x.jar`) para um local conveniente em seu sistema.
+
+3. Adicione o caminho para o arquivo JAR do driver ao classpath do seu aplicativo Java.
